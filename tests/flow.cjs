@@ -38,7 +38,7 @@ assert.throws(()=>w.StenoCore.validate({...saved,review:JSON.parse('{"__proto__"
 assert.throws(()=>w.StenoCore.validate({...saved,days:['2026-02-31']}));
 assert.throws(()=>w.StenoCore.validate({...saved,completed:['L02']}));
 assert.throws(()=>w.StenoCore.validate({...saved,completed:['L01','L03']}));
-click('[data-nav="stats"]');click('#export');const backup=doc.querySelector('#backup').value;assert.equal(JSON.parse(backup).learned.length,3);
+w.eval('state.review[Object.keys(state.review)[0]].due=Date.now()-1');click('[data-nav="stats"]');assert.ok(doc.querySelector('#review-due'));assert.match(doc.querySelector('.review-list').textContent,/heute/);click('#export');const backup=doc.querySelector('#backup').value;assert.equal(JSON.parse(backup).learned.length,3);
 doc.querySelector('#backup').value='garbage';click('#import');assert.equal(value('state.learned.length'),3);
 doc.querySelector('#backup').value=backup;click('#import');click('#restore');assert.equal(value('state.xp'),xp);
 // Collection filters, references, repeated drawing and empty review state.
@@ -47,5 +47,5 @@ click('[data-nav="write"]');assert.match(doc.querySelector('#sentences').textCon
 // Local calendar arithmetic stays correct across DST boundaries.
 assert.equal(w.StenoCore.shiftDay('2026-03-29',1),'2026-03-30');assert.equal(w.StenoCore.shiftDay('2026-10-25',-1),'2026-10-24');
 assert.equal(errors.length,0,errors.map(String).join('\n'));
-console.log('PASS: 105 content mappings; learning flows; drawing and paper fallback; accessibility states; observer cleanup; backup validation; gated reading sequences; reference; DST.');
+console.log('PASS: 105 content mappings; learning flows; drawing and paper fallback; accessibility states; observer cleanup; backup validation; review overview; gated reading sequences; reference; DST.');
 dom.window.close();
