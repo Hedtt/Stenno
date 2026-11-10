@@ -37,6 +37,8 @@ Der vollständige Quellcode liegt unter [Hedtt/Stenno](https://github.com/Hedtt/
 
 Die Pipeline `.github/workflows/android.yml` führt die Tests aus, baut die APK und stellt sie als Actions-Artefakt bereit. Sie veröffentlicht keine Release-Datei und keine Website. Die Android-Version wird zentral in `version.properties` gepflegt; vor einem veröffentlichbaren Update muss der `VERSION_CODE` erhöht werden.
 
+`npm test` prüft zusätzlich, dass Paketversion, Gradle-Konfiguration und Direkt-Build dieselbe Version aus `version.properties` verwenden.
+
 ## Lokal entwickeln
 
 ```bash

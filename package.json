@@ -3,6 +3,6 @@
   "version": "0.2.0",
   "private": true,
   "description": "Offline-Grundlagenkurs für DEK-Verkehrsschrift mit Android-App",
-  "scripts": {"test": "node tests/flow.cjs", "assemble": "python3 scripts/assemble.py"},
+  "scripts": {"test": "npm run test:version && node tests/flow.cjs", "test:version": "node tests/version.cjs", "assemble": "python3 scripts/assemble.py"},
   "devDependencies": {"jsdom": "26.1.0"}
 }
