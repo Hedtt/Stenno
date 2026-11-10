@@ -1,6 +1,8 @@
 name: Android APK und Lernlogik prüfen
 on:
   push:
+    branches: [main]
+    tags: ['v*']
   pull_request:
   workflow_dispatch:
 permissions:
@@ -26,5 +28,47 @@ jobs:
       - run: bash scripts/build-apk.sh
       - uses: actions/upload-artifact@v4
         with:
-          name: Stenopfad-Android
+          name: Stenopfad-Test-APK
           path: dist/Stenopfad.apk
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Release-Schlüssel wiederherstellen
+        env:
+          STENOPFAD_KEYSTORE_BASE64: ${{ secrets.STENOPFAD_KEYSTORE_BASE64 }}
+        run: |
+          test -n "$STENOPFAD_KEYSTORE_BASE64" || { echo 'Release-Schlüssel fehlt. Siehe README.' >&2; exit 1; }
+          mkdir -p build
+          printf '%s' "$STENOPFAD_KEYSTORE_BASE64" | base64 --decode > build/stenopfad-release.p12
+          chmod 600 build/stenopfad-release.p12
+      - name: Version und Tag prüfen
+        run: test "$GITHUB_REF_NAME" = "v$(sed -n 's/^VERSION_NAME=//p' version.properties)"
+      - name: Signierte Release-APK bauen
+        env:
+          STENOPFAD_KEYSTORE: ${{ github.workspace }}/build/stenopfad-release.p12
+          STENOPFAD_KEYSTORE_PASSWORD: ${{ secrets.STENOPFAD_KEYSTORE_PASSWORD }}
+          STENOPFAD_KEY_ALIAS: ${{ secrets.STENOPFAD_KEY_ALIAS }}
+          STENOPFAD_KEY_PASSWORD: ${{ secrets.STENOPFAD_KEY_PASSWORD }}
+        run: bash scripts/build-apk.sh
+      - name: GitHub-Release veröffentlichen
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION_NAME: ${{ github.ref_name }}
+        run: gh release create "$VERSION_NAME" dist/Stenopfad.apk --title "Stenopfad ${VERSION_NAME#v}" --generate-notes

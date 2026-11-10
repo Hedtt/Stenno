@@ -7,6 +7,7 @@ dist/
 node_modules/
 *.keystore
 *.jks
+*.p12
 *.idsig
 Stenopfad.html
 app/src/main/assets/index.html

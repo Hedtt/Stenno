@@ -25,5 +25,12 @@ assert.match(directBuild,/VERSION_CODE="\$\(sed -n 's\/\^VERSION_CODE=\/\/p' "\$
 assert.match(directBuild,/export VERSION_CODE VERSION_NAME/);
 assert.match(directBuild,/os\.environ\["VERSION_CODE"\]/);
 assert.match(directBuild,/os\.environ\["VERSION_NAME"\]/);
+assert.match(directBuild,/STENOPFAD_KEYSTORE_PASSWORD/);
+assert.match(directBuild,/STENOPFAD_KEY_ALIAS/);
+
+const workflow=read('.github/workflows/android.yml');
+assert.match(workflow,/refs\/tags\/v/,'Release-Workflow muss auf Versions-Tags reagieren');
+assert.match(workflow,/STENOPFAD_KEYSTORE_BASE64/,'Release-Workflow muss den privaten Schlüssel als Secret erwarten');
+assert.match(workflow,/gh release create/,'Release-Workflow muss die signierte APK veröffentlichen');
 
 console.log(`PASS: Version ${properties.VERSION_NAME} (Code ${properties.VERSION_CODE}) ist in Paket, Gradle und Direkt-Build konsistent.`);

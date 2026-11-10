@@ -33,11 +33,17 @@ find "$BUILD_DIR/classes" -name '*.class' -print0 | xargs -0 "$SDK_TOOLS/d8" --l
 cp "$BUILD_DIR/base.apk" "$BUILD_DIR/unsigned.apk"
 (cd "$BUILD_DIR/dex" && zip -q "$BUILD_DIR/unsigned.apk" classes.dex)
 "$SDK_TOOLS/zipalign" -f -p 4 "$BUILD_DIR/unsigned.apk" "$BUILD_DIR/aligned.apk"
-# Debug key is intentionally not stored in git. Use a stable private release key for updates.
+# Debug key is intentionally not stored in git. Releases provide a stable private key through environment variables.
 KEYSTORE_PATH="${STENOPFAD_KEYSTORE:-$PWD/build/stenopfad-debug.keystore}"
+KEYSTORE_PASSWORD="${STENOPFAD_KEYSTORE_PASSWORD:-android}"
+KEY_ALIAS="${STENOPFAD_KEY_ALIAS:-androiddebugkey}"
+KEY_PASSWORD="${STENOPFAD_KEY_PASSWORD:-$KEYSTORE_PASSWORD}"
 if [ ! -f "$KEYSTORE_PATH" ]; then
- keytool -genkeypair -keystore "$KEYSTORE_PATH" -storepass android -keypass android -alias androiddebugkey -dname 'CN=Stenopfad Debug,O=Development,C=DE' -keyalg RSA -keysize 2048 -validity 10000 >/dev/null 2>&1
+ if [ -n "${STENOPFAD_KEYSTORE:-}" ]; then
+  echo "Der angegebene Release-Schlüssel fehlt: $KEYSTORE_PATH" >&2; exit 1
+ fi
+ keytool -genkeypair -keystore "$KEYSTORE_PATH" -storepass "$KEYSTORE_PASSWORD" -keypass "$KEY_PASSWORD" -alias "$KEY_ALIAS" -dname 'CN=Stenopfad Debug,O=Development,C=DE' -keyalg RSA -keysize 2048 -validity 10000 >/dev/null 2>&1
 fi
-"$SDK_TOOLS/apksigner" sign --ks "$KEYSTORE_PATH" --ks-pass pass:android --key-pass pass:android --ks-key-alias androiddebugkey --out dist/Stenopfad.apk "$BUILD_DIR/aligned.apk"
+"$SDK_TOOLS/apksigner" sign --ks "$KEYSTORE_PATH" --ks-pass "pass:$KEYSTORE_PASSWORD" --key-pass "pass:$KEY_PASSWORD" --ks-key-alias "$KEY_ALIAS" --out dist/Stenopfad.apk "$BUILD_DIR/aligned.apk"
 "$SDK_TOOLS/apksigner" verify --verbose dist/Stenopfad.apk
 "$SDK_TOOLS/aapt2" dump badging dist/Stenopfad.apk | head -8
