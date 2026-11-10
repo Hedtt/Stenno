@@ -1,4 +1,4 @@
-# Validierung der Version 0.1.0
+# Validierung der Version 0.3.0
 
 ## Erfolgreich geprüft
 
@@ -10,6 +10,7 @@
 - Schrittweises Lernen über mehrere Sitzungen und Freischaltung nach Abschluss aller Formen.
 - Abbrechen vergibt keine XP und verliert keinen vorher abgeschlossenen Fortschritt.
 - Export und Wiederherstellung; ungültige, unbekannte oder gefährliche Datenschlüssel werden abgelehnt.
+- Zustandsmigration älterer Sicherungen: Bereits gelernte und fällige Formen werden verlustfrei in den Status `introduced` überführt. Neue Sicherungen akzeptieren Wiederholungsdaten nur für bereits eingeführte Formen; der Lernpfad bleibt dadurch geschlossen.
 - Suche, Referenzansicht und Kalendertagsrechnung an beiden Zeitumstellungen 2026.
 - Nativer Java-Code mit Eclipse JDT 3.38.0 gegen Android API 35 kompiliert.
 - APK mit AAPT2 und D8 gebaut, ZIP-Ausrichtung geprüft, v2/v3-Signatur erfolgreich verifiziert.

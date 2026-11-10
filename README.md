@@ -29,6 +29,8 @@ Den täglichen Ablauf und die Lernziele findest du in [docs/LERNPLAN.md](docs/LE
 
 Unter **Fortschritt → Sicherung erstellen** die Sicherung kopieren und außerhalb der App speichern. Android speichert den Lernstand nur im privaten Speicher dieser Installation. Beim Deinstallieren geht dieser Speicher verloren. Die freien Schreibspuren werden nicht dauerhaft gespeichert.
 
+Die Sicherung unterscheidet gelernte Formen von bereits **eingeführten** Formen: Letztere wurden in einer abgeschlossenen Aufgabe bereits bewertet oder falsch beantwortet und dürfen deshalb sofort wiederholt werden, ohne den Lernpfad freizuschalten. Sicherungen des früheren Formats werden beim Laden automatisch in dieses Format überführt; unbekannte oder widersprüchliche Einträge weist die App ab.
+
 Für neue APK-Versionen muss derselbe private Signaturschlüssel benutzt werden, damit Android ein Update akzeptiert. Der mitgelieferte Quellcode enthält keinen privaten Schlüssel. Die GitHub-Testpipeline erzeugt ohne zusätzlich verwalteten Schlüssel neue Testsignaturen. Vor einer deshalb notwendigen Neuinstallation zuerst den Lernstand sichern und danach wiederherstellen.
 
 ## Quellcode und GitHub

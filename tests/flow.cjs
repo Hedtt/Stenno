@@ -20,12 +20,13 @@ function finishCard(correct=true){assert.equal(doc.querySelector('[role="progres
 assert.equal(value('CONTENT.cards.length'),105);assert.equal(value('CONTENT.lessons.length'),26);
 assert.equal(new Set(value('CONTENT.cards.map(c=>c.id)')).size,105);
 assert.equal(value('new Set(CONTENT.lessons.flatMap(l=>l.cards)).size'),105);
+assert.equal(value('fresh().version'),2);assert.equal(value('fresh().introduced.length'),0);
 click('[data-min="3"]');click('#start');finishCard();
-assert.equal(value('state.learned.length'),1);assert.equal(value('state.xp'),20);assert.equal(value('state.sessions'),1);assert.equal(value('state.completed.length'),0);assert.equal(value('dueIds().length'),0);
-click('#home');click('#start');finishCard(false);assert.equal(value('state.learned.length'),1);assert.equal(value('dueIds().length'),1);
+assert.equal(value('state.learned.length'),1);assert.equal(value('state.introduced.length'),1);assert.equal(value('state.xp'),20);assert.equal(value('state.sessions'),1);assert.equal(value('state.completed.length'),0);assert.equal(value('dueIds().length'),0);
+click('#home');click('#start');finishCard(false);assert.equal(value('state.learned.length'),1);assert.equal(value('state.introduced.length'),2);assert.equal(value('state.introduced.includes(dueIds()[0])'),true);assert.equal(value('dueIds().length'),1);
 click('#home');click('#start');finishCard();click('#home');click('#start');finishCard();assert.equal(value('state.learned.length'),3);assert.equal(value('state.completed[0]'),'L01');
 // Saved results survive reload; aborted tasks grant no XP.
-const saved=JSON.parse(w.localStorage.getItem('stenopfad.v1'));assert.equal(saved.learned.length,3);
+const saved=JSON.parse(w.localStorage.getItem('stenopfad.v1'));assert.equal(saved.version,2);assert.equal(saved.learned.length,3);const legacy={...saved,version:1};delete legacy.introduced;const migrated=w.StenoCore.validate(legacy);assert.equal(migrated.version,2);assert.deepEqual(JSON.parse(JSON.stringify(migrated.introduced)),[...new Set([...legacy.learned,...Object.keys(legacy.review)])]);const futureId=value('CONTENT.cards.find(c=>!state.introduced.includes(c.id)).id');assert.throws(()=>w.StenoCore.validate({...saved,review:{...saved.review,[futureId]:{level:0,due:0}}}));assert.throws(()=>w.StenoCore.validate({...saved,learned:[...saved.learned,futureId]}));const legacyWithFailed={...legacy,review:{...legacy.review,[futureId]:{level:0,due:0}}};const migratedWithFailed=w.StenoCore.validate(legacyWithFailed);assert.ok(migratedWithFailed.introduced.includes(futureId));assert.ok(!migratedWithFailed.learned.includes(futureId));
 click('#home');const xp=value('state.xp');click('#start');click('#leave');click('#exit');assert.equal(value('state.xp'),xp);
 // Paper is a fully usable fallback for drawing tasks.
 click('#start');click('#next');click('#paper');assert.equal(doc.querySelector('#compare').disabled,false);assert.match(doc.querySelector('#write-feedback').textContent,/Übung auf Papier/);click('#compare');assert.ok(doc.querySelector('[role="radiogroup"]'));click('#leave');click('#exit');
@@ -38,7 +39,7 @@ assert.throws(()=>w.StenoCore.validate({...saved,review:JSON.parse('{"__proto__"
 assert.throws(()=>w.StenoCore.validate({...saved,days:['2026-02-31']}));
 assert.throws(()=>w.StenoCore.validate({...saved,completed:['L02']}));
 assert.throws(()=>w.StenoCore.validate({...saved,completed:['L01','L03']}));
-w.eval('state.review[Object.keys(state.review)[0]].due=Date.now()-1');click('[data-nav="stats"]');assert.ok(doc.querySelector('#review-due'));assert.match(doc.querySelector('.review-list').textContent,/heute/);click('#export');const backup=doc.querySelector('#backup').value;assert.equal(JSON.parse(backup).learned.length,3);
+w.eval('state.review[Object.keys(state.review)[0]].due=Date.now()-1');click('[data-nav="stats"]');assert.ok(doc.querySelector('#review-due'));assert.match(doc.querySelector('.review-list').textContent,/heute/);assert.ok([...doc.querySelectorAll('#main aside h3')].some(h=>h.textContent==='Stenopfad 0.3'));click('#export');const backup=doc.querySelector('#backup').value;assert.equal(JSON.parse(backup).learned.length,3);
 doc.querySelector('#backup').value='garbage';click('#import');assert.equal(value('state.learned.length'),3);
 doc.querySelector('#backup').value=backup;click('#import');click('#restore');assert.equal(value('state.xp'),xp);
 // Collection filters, references, repeated drawing and empty review state.
