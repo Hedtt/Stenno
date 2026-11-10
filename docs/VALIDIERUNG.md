@@ -1,4 +1,4 @@
-# Validierung der Version 0.3.0
+# Validierung der Version 0.3.1
 
 ## Erfolgreich geprüft
 
@@ -15,6 +15,7 @@
 - Nativer Java-Code mit Eclipse JDT 3.38.0 gegen Android API 35 kompiliert.
 - APK mit AAPT2 und D8 gebaut, ZIP-Ausrichtung geprüft, v2/v3-Signatur erfolgreich verifiziert.
 - Paketkennung de.stenopfad.app; Minimum Android 8/API 26; Ziel Android 15/API 35; keine Internetberechtigung.
+- Basis- und Smartphone-Stile, Canvas-Überlagerung sowie eingebettete `data:`-Zeichenbilder werden durch Regressionstests abgesichert.
 - Zeichen-Ausschnitte anhand einer Kontaktübersicht visuell mit der amtlichen Vorlage abgeglichen. Bei Kürzeln mit mehreren Varianten wurde eine einzelne Vorlage ausgeschnitten.
 
 ## Grenzen dieser Prüfung

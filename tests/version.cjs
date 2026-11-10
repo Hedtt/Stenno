@@ -28,6 +28,15 @@ assert.match(directBuild,/os\.environ\["VERSION_NAME"\]/);
 assert.match(directBuild,/STENOPFAD_KEYSTORE_PASSWORD/);
 assert.match(directBuild,/STENOPFAD_KEY_ALIAS/);
 
+const style=read('web/style.css');
+assert.ok(style.length>8000,'Der vollständige Basisstil darf nicht überschrieben werden');
+assert.match(style,/\.write-wrap\{position:relative[^}]*height:280px[^}]*touch-action:none/,'Die Zeichenfläche braucht ihr mobiles Canvas-Layout');
+assert.match(style,/@media\(max-width:800px\)/,'Der Basisstil muss eine Smartphone-Ansicht enthalten');
+
+const activity=read('app/src/main/java/de/stenopfad/app/MainActivity.java');
+assert.match(activity,/"data"\.equalsIgnoreCase\(request\.getUrl\(\)\.getScheme\(\)\)/,'Eingebettete Zeichenbilder dürfen in der WebView nicht blockiert werden');
+assert.doesNotMatch(read('web/app.js'),/\.strokes\.at\(-1\)/,'Die Zeichnung darf keine neuere Array-API voraussetzen');
+
 const workflow=read('.github/workflows/android.yml');
 assert.match(workflow,/refs\/tags\/v/,'Release-Workflow muss auf Versions-Tags reagieren');
 assert.match(workflow,/STENOPFAD_KEYSTORE_BASE64/,'Release-Workflow muss den privaten Schlüssel als Secret erwarten');

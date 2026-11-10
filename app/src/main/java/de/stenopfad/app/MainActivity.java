@@ -53,6 +53,8 @@ public final class MainActivity extends Activity {
                 return true;
             }
             @Override public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
+                // The learning images are embedded as data: URLs. They are local content, not network requests.
+                if (request != null && request.getUrl() != null && "data".equalsIgnoreCase(request.getUrl().getScheme())) return null;
                 return new WebResourceResponse("text/plain", "UTF-8", new ByteArrayInputStream(new byte[0]));
             }
         });

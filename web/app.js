@@ -81,16 +81,16 @@ function renderTask(){
  const heading=$('#task h1');if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true});}
 }
 function setupDrawing(c,trace,free=false){
- const canvas=$('#ink'),wrap=$('#drawing'),ctx=canvas.getContext('2d');const draw={strokes:[],pointer:null,locked:false};activeDrawing=draw;
+ const canvas=$('#ink'),wrap=$('#drawing'),ctx=canvas.getContext('2d');if(!ctx){const feedback=$('#write-feedback');if(feedback)feedback.innerHTML='<div class="feedback bad"><strong>Schreibfläche nicht verfügbar</strong><p>Aktualisiere Android System WebView oder nutze die Papierübung.</p></div>';return;}const draw={strokes:[],pointer:null,locked:false};activeDrawing=draw;
  function size(){const r=wrap.getBoundingClientRect(),dpr=window.devicePixelRatio||1;canvas.width=Math.round(r.width*dpr);canvas.height=Math.round(r.height*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);paint();}
  function paint(){const r=wrap.getBoundingClientRect();ctx.clearRect(0,0,r.width,r.height);ctx.strokeStyle='#e2e7d9';ctx.lineWidth=1;for(let i=0;i<4;i++){const y=r.height/2-48+i*32;ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(r.width,y);ctx.stroke();}for(const s of draw.strokes){ctx.strokeStyle='#b34864';ctx.lineWidth=s.width;ctx.lineCap='round';ctx.lineJoin='round';ctx.beginPath();s.points.forEach((p,i)=>{const x=p.x*r.width,y=p.y*r.height;if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);});if(s.points.length===1){const p=s.points[0];ctx.lineTo(p.x*r.width+.01,p.y*r.height+.01);}ctx.stroke();}}
  function point(e){const r=canvas.getBoundingClientRect();return{x:Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),y:Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))};}
  function changed(){const b=$('#compare');if(b)b.disabled=!draw.strokes.some(s=>s.points.length>2);}
- canvas.onpointerdown=e=>{if(draw.locked||draw.pointer!==null)return;e.preventDefault();draw.pointer=e.pointerId;canvas.setPointerCapture(e.pointerId);draw.strokes.push({width:Number($('#pen').value),points:[point(e)]});paint();};
- canvas.onpointermove=e=>{if(draw.pointer!==e.pointerId||draw.locked)return;e.preventDefault();draw.strokes.at(-1).points.push(point(e));paint();changed();};
+ canvas.onpointerdown=e=>{if(draw.locked||draw.pointer!==null)return;e.preventDefault();draw.pointer=e.pointerId;try{canvas.setPointerCapture?.(e.pointerId);}catch(_){/* Older WebViews can draw without pointer capture. */}draw.strokes.push({width:Number($('#pen').value),points:[point(e)]});paint();};
+ canvas.onpointermove=e=>{if(draw.pointer!==e.pointerId||draw.locked)return;e.preventDefault();const stroke=draw.strokes[draw.strokes.length-1];if(!stroke)return;stroke.points.push(point(e));paint();changed();};
  const end=e=>{if(draw.pointer!==e.pointerId)return;draw.pointer=null;changed();};canvas.onpointerup=end;canvas.onpointercancel=end;canvas.onlostpointercapture=end;
  $('#undo').onclick=()=>{if(draw.locked)return;draw.strokes.pop();paint();changed();};$('#clear').onclick=()=>{if(draw.locked)return;draw.strokes=[];paint();changed();};
- const observer=new ResizeObserver(()=>{if(activeDrawing===draw)size();else observer.disconnect();});observer.observe(wrap);draw.dispose=()=>observer.disconnect();size();draw.paint=paint;
+ const onResize=()=>{if(activeDrawing===draw)size();};let observer=null;if(typeof ResizeObserver==='function'){observer=new ResizeObserver(onResize);observer.observe(wrap);}else window.addEventListener('resize',onResize);draw.dispose=()=>{observer?.disconnect();window.removeEventListener('resize',onResize);};size();draw.paint=paint;
 }
 function record(id,ok){session.answered++;if(ok){session.correct++;session.xp+=5;}else{session.failed.push(id);}session.results[id]=(session.results[id]??true)&&ok;}
 function advance(){session.index++;render();window.scrollTo(0,0);}
