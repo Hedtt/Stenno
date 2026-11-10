@@ -32,5 +32,8 @@ const workflow=read('.github/workflows/android.yml');
 assert.match(workflow,/refs\/tags\/v/,'Release-Workflow muss auf Versions-Tags reagieren');
 assert.match(workflow,/STENOPFAD_KEYSTORE_BASE64/,'Release-Workflow muss den privaten Schlüssel als Secret erwarten');
 assert.match(workflow,/gh release create/,'Release-Workflow muss die signierte APK veröffentlichen');
+assert.match(workflow,/android-actions\/setup-android@v4/,'Workflow muss die aktuelle Android-SDK-Aktion verwenden');
+assert.match(workflow,/packages: ''/,'Workflow darf das entfernte Android-SDK-Paket tools nicht anfordern');
+assert.doesNotMatch(workflow,/setup-android@v3/,'Der fehlerhafte Android-SDK-Standard darf nicht zurückkehren');
 
 console.log(`PASS: Version ${properties.VERSION_NAME} (Code ${properties.VERSION_CODE}) ist in Paket, Gradle und Direkt-Build konsistent.`);
