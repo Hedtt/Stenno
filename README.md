@@ -33,9 +33,9 @@ Für neue APK-Versionen muss derselbe private Signaturschlüssel benutzt werden,
 
 ## Quellcode und GitHub
 
-Es wurde noch kein GitHub-Repository erstellt. Ein neues leeres Repository, zum Beispiel `stenopfad`, anlegen; dieses Projekt kann anschließend dort hochgeladen werden. Kein Build-Verzeichnis und keinen privaten Signaturschlüssel hochladen.
+Der vollständige Quellcode liegt unter [Hedtt/Stenno](https://github.com/Hedtt/Stenno). Kein Build-Verzeichnis und keinen privaten Signaturschlüssel hochladen.
 
-Die Pipeline `.github/workflows/android.yml` führt die Tests aus, baut die APK und stellt sie als Actions-Artefakt bereit. Sie veröffentlicht keine Release-Datei und keine Website.
+Die Pipeline `.github/workflows/android.yml` führt die Tests aus, baut die APK und stellt sie als Actions-Artefakt bereit. Sie veröffentlicht keine Release-Datei und keine Website. Die Android-Version wird zentral in `version.properties` gepflegt; vor einem veröffentlichbaren Update muss der `VERSION_CODE` erhöht werden.
 
 ## Lokal entwickeln
 

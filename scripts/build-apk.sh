@@ -5,12 +5,19 @@ cd "$(dirname "$0")/.."
 SDK_TOOLS="$ANDROID_HOME/build-tools/35.0.0"
 PLATFORM_JAR="$ANDROID_HOME/platforms/android-35/android.jar"
 BUILD_DIR="$PWD/build/manual"
+VERSION_FILE="$PWD/version.properties"
+VERSION_CODE="$(sed -n 's/^VERSION_CODE=//p' "$VERSION_FILE" | head -n 1)"
+VERSION_NAME="$(sed -n 's/^VERSION_NAME=//p' "$VERSION_FILE" | head -n 1)"
+case "$VERSION_CODE" in ''|*[!0-9]*) echo 'VERSION_CODE muss eine positive Ganzzahl sein.' >&2; exit 1;; esac
+case "$VERSION_NAME" in ''|*[!0-9A-Za-z._-]*) echo 'VERSION_NAME enthält ungültige Zeichen.' >&2; exit 1;; esac
+export VERSION_CODE VERSION_NAME
 mkdir -p "$BUILD_DIR/classes" "$BUILD_DIR/dex" "$PWD/dist"
 python3 scripts/assemble.py
 python3 - "$BUILD_DIR/AndroidManifest.xml" <<'PYCODE'
 from pathlib import Path
+import os
 import sys
-s=Path('app/src/main/AndroidManifest.xml').read_text().replace('<manifest ', '<manifest package="de.stenopfad.app" android:versionCode="1" android:versionName="0.1.0" ',1)
+s=Path('app/src/main/AndroidManifest.xml').read_text().replace('<manifest ', f'<manifest package="de.stenopfad.app" android:versionCode="{os.environ["VERSION_CODE"]}" android:versionName="{os.environ["VERSION_NAME"]}" ',1)
 Path(sys.argv[1]).write_text(s)
 PYCODE
 "$SDK_TOOLS/aapt2" compile --dir app/src/main/res -o "$BUILD_DIR/resources.zip"

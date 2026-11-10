@@ -1,4 +1,6 @@
 plugins { id 'com.android.application' }
+def versionProperties = new Properties()
+file('../version.properties').withInputStream { versionProperties.load(it) }
 android {
     namespace 'de.stenopfad.app'
     compileSdk 35
@@ -6,8 +8,8 @@ android {
         applicationId 'de.stenopfad.app'
         minSdk 26
         targetSdk 35
-        versionCode 1
-        versionName '0.1.0'
+        versionCode versionProperties['VERSION_CODE'].toInteger()
+        versionName versionProperties['VERSION_NAME']
     }
     compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
 }
