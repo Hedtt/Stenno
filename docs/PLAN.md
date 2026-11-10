@@ -12,6 +12,7 @@ Eine offline nutzbare Android-App für einen Anfänger, mit variabler Tagesdauer
 - Aus dem Gedächtnis schreiben; Vorlage einblenden; explizite Selbstbewertung.
 - Lernfortschritt, XP und Wiederholungsstatus erst nach abgeschlossener Sitzung speichern.
 - Unterbrochene Einheiten sicher pausieren und bei der nächsten Aufgabe fortsetzen; die aktuelle Zeichnung bleibt dabei flüchtig.
+- Einzelne Vorlagen aus dem Nachschlagebuch als separate, pausierbare Übung öffnen, ohne den geführten Kurs oder seine Freischaltungen zu umgehen.
 - Weitere Einheit freischalten, wenn alle Formen des Abschnitts erfolgreich bearbeitet wurden.
 
 Die Tagesdauer verändert die Zahl der Formen. Fehlgeschlagene Leseaufgaben verhindern, dass dieselbe Form in dieser Sitzung als gelernt zählt. Eine sichere Schreib-Selbstbewertung allein überschreibt einen Lesefehler nicht.

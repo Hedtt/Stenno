@@ -1,4 +1,4 @@
-# Validierung der Version 0.4.0
+# Validierung der Version 0.5.0
 
 ## Erfolgreich geprüft
 
@@ -12,6 +12,7 @@
 - Export und Wiederherstellung; ungültige, unbekannte oder gefährliche Datenschlüssel werden abgelehnt.
 - Zustandsmigration älterer Sicherungen: Bereits gelernte und fällige Formen werden verlustfrei in den Status `introduced` überführt. Neue Sicherungen akzeptieren Wiederholungsdaten nur für bereits eingeführte Formen; der Lernpfad bleibt dadurch geschlossen.
 - Unterbrochene Einheiten werden validiert gespeichert und setzen an der nächsten Aufgabe fort. Unvollständige Zeichenstriche bleiben bewusst flüchtig; Abschluss-XP wird weiterhin nur einmal vergeben.
+- Einzelübungen aus der Sammlung bleiben vom Kursfortschritt getrennt; auch ein aus Version 0.4 pausierter Einzelübungsstand lässt sich wiederherstellen.
 - Suche, Referenzansicht und Kalendertagsrechnung an beiden Zeitumstellungen 2026.
 - Nativer Java-Code mit Eclipse JDT 3.38.0 gegen Android API 35 kompiliert.
 - APK mit AAPT2 und D8 gebaut, ZIP-Ausrichtung geprüft, v2/v3-Signatur erfolgreich verifiziert.

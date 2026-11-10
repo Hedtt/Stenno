@@ -18,7 +18,7 @@ Android 8.0 oder neuer und eine aktuelle Version von Android System WebView werd
 - Automatisch fällige Wiederholungen mit 1, 3, 7, 14 und 30 Tagen Abstand. Fehlerhafte Formen bleiben sofort fällig.
 - XP, Lerntage, Freischaltungen und lokaler Fortschritt. Eine kurze Sitzung behandelt einen Teil der Einheit; nichts muss in einer bestimmten Tagesdauer abgeschlossen werden.
 - Unterbrochene Einheiten setzen bei der nächsten Aufgabe fort. Die aktuelle Zeichnung bleibt bewusst nur während der geöffneten Aufgabe erhalten.
-- Freie Schreibfläche, drei kleine Lesesätze aus Wortkürzeln, durchsuchbare Sammlung.
+- Freie Schreibfläche, drei kleine Lesesätze aus Wortkürzeln und eine durchsuchbare Sammlung mit pausierbaren Einzelübungen. Diese verfälschen weder Kursfortschritt noch Freischaltungen.
 - Seiten 2–10 der amtlichen Verkehrsschrift als Offline-Referenz.
 - Fortschritt über Textsicherung kopieren und mit Bestätigung wiederherstellen.
 
