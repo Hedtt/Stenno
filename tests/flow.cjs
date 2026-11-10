@@ -15,7 +15,7 @@ const w=dom.window,doc=w.document;
 const click=s=>{const e=doc.querySelector(s);assert.ok(e,`Missing ${s}`);e.click();};
 const value=expr=>JSON.parse(w.eval(`JSON.stringify(${expr})`));
 function draw(){const el=doc.querySelector('#ink');for(const [name,x] of [['pointerdown',100],['pointermove',110],['pointermove',120],['pointermove',130],['pointerup',130]]){const e=new w.Event(name,{bubbles:true,cancelable:true});Object.assign(e,{pointerId:1,clientX:x,clientY:140});el['on'+name](e);}}
-function answer(correct=true){const id=w.eval('session.tasks[session.index].id'),choice=doc.querySelector(`[data-answer${correct?'="'+id+'"':']:not([data-answer="'+id+'"'}]`);assert.equal(choice.getAttribute('role'),'radio');choice.click();assert.equal(choice.getAttribute('aria-checked'),'true');click('#check');click('#check');}
+function answer(correct=true){const id=w.eval('session.tasks[session.index].id'),choice=doc.querySelector(`[data-answer${correct?'="'+id+'"':']:not([data-answer="'+id+'"'}]`),first=doc.querySelector('[data-answer]');assert.equal(choice.getAttribute('role'),'radio');first.focus();first.dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));assert.equal(doc.querySelectorAll('[aria-checked="true"]').length,1);choice.click();assert.equal(choice.getAttribute('aria-checked'),'true');click('#check');click('#check');}
 function finishCard(correct=true){assert.equal(doc.querySelector('[role="progressbar"]').getAttribute('aria-valuenow'),'1');click('#next');assert.ok(doc.querySelector('#compare').disabled);draw();assert.ok(!doc.querySelector('#compare').disabled);click('#undo');assert.ok(doc.querySelector('#compare').disabled);draw();click('#compare');answer(correct);draw();click('#compare');click('#confident');}
 assert.equal(value('CONTENT.cards.length'),105);assert.equal(value('CONTENT.lessons.length'),26);
 assert.equal(new Set(value('CONTENT.cards.map(c=>c.id)')).size,105);
@@ -47,5 +47,5 @@ click('[data-nav="write"]');assert.match(doc.querySelector('#sentences').textCon
 // Local calendar arithmetic stays correct across DST boundaries.
 assert.equal(w.StenoCore.shiftDay('2026-03-29',1),'2026-03-30');assert.equal(w.StenoCore.shiftDay('2026-10-25',-1),'2026-10-24');
 assert.equal(errors.length,0,errors.map(String).join('\n'));
-console.log('PASS: 105 content mappings; learning flows; drawing and paper fallback; accessibility states; observer cleanup; backup validation; review overview; gated reading sequences; reference; DST.');
+console.log('PASS: 105 content mappings; learning flows; drawing and paper fallback; keyboard-accessible answers; observer cleanup; backup validation; review overview; gated reading sequences; reference; DST.');
 dom.window.close();
