@@ -8,9 +8,9 @@ Ziel dieser ersten Kursfassung: Mitlaute und ausgewählte Wortkürzel erkennen, 
 2. **Fälliges wiederholen:** Wenn die App Wiederholungen anzeigt, beginne damit. Bei wenig Zeit genügt das als tägliche Sitzung.
 3. **Etwas Neues lernen:** Eine Vorlage anschauen, nachzeichnen, lesen und ohne Vorlage schreiben.
 4. **Ehrlich vergleichen:** Form, Größe und Lage prüfen. „Noch unsicher“ sorgt dafür, dass die Form wieder fällig wird.
-5. **Aufhören oder fortsetzen:** Die nächsten Formen laufen nicht weg. Eine Lerneinheit darf mehrere Tage dauern.
+5. **Pausieren oder fortsetzen:** Beim Unterbrechen merkt sich die App die nächste Aufgabe. Die aktuelle Zeichnung bleibt bewusst nur auf dem Bildschirm; eine Lerneinheit darf mehrere Tage dauern.
 
-Ein Lerntag zählt, wenn du eine Sitzung abschließt. Ein Abbruch verliert keinen früher abgeschlossenen Fortschritt. Innerhalb einer laufenden Sitzung wird erst beim Abschluss gespeichert.
+Ein Lerntag zählt, wenn du eine Sitzung abschließt. Ein Abbruch verliert keinen früher abgeschlossenen Fortschritt. Beim Pausieren wird nur der Zwischenstand der laufenden Einheit gesichert; XP, Freischaltungen und der Lerntag werden erst beim Abschluss vergeben.
 
 ## Anpassung an deine Zeit
 

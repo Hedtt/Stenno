@@ -10,7 +10,8 @@ Eine offline nutzbare Android-App für einen Anfänger, mit variabler Tagesdauer
 - Nachzeichnen auf einer Pointer-Events-Schreibfläche mit Finger und Stift.
 - Lesen mit mehreren Antwortmöglichkeiten und unmittelbarer Rückmeldung.
 - Aus dem Gedächtnis schreiben; Vorlage einblenden; explizite Selbstbewertung.
-- Fortschritt und Wiederholungsstatus erst nach abgeschlossener Sitzung speichern.
+- Lernfortschritt, XP und Wiederholungsstatus erst nach abgeschlossener Sitzung speichern.
+- Unterbrochene Einheiten sicher pausieren und bei der nächsten Aufgabe fortsetzen; die aktuelle Zeichnung bleibt dabei flüchtig.
 - Weitere Einheit freischalten, wenn alle Formen des Abschnitts erfolgreich bearbeitet wurden.
 
 Die Tagesdauer verändert die Zahl der Formen. Fehlgeschlagene Leseaufgaben verhindern, dass dieselbe Form in dieser Sitzung als gelernt zählt. Eine sichere Schreib-Selbstbewertung allein überschreibt einen Lesefehler nicht.
@@ -31,6 +32,6 @@ Die Tagesdauer verändert die Zahl der Formen. Fehlgeschlagene Leseaufgaben verh
 3. Geführte Darstellung sinnbildlicher Vokale mit geprüften Wortpaaren.
 4. Verbindungsübungen und Wortbildung mit kuratierten Wortvorlagen, anschließend kurze Diktate.
 5. Erst nach einem belastbaren Beispieldatensatz optionale geometrische Schreibhilfe; Form, Lage und Richtung getrennt erklären. Keine pauschale KI-Punktzahl ohne nachgewiesene Qualität.
-6. Stabilen privaten Release-Schlüssel verwalten, automatische Gerätekontrollen ergänzen und signierte Updates bereitstellen.
+6. Automatische Gerätekontrollen ergänzen und signierte Updates auf echten Geräten testen.
 
 Nicht enthalten sind Benachrichtigungen, Cloud-Synchronisierung und eine Play-Store-Veröffentlichung.

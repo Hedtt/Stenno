@@ -17,6 +17,7 @@ Android 8.0 oder neuer und eine aktuelle Version von Android System WebView werd
 - Vorlagenvergleich und ausdrückliche Selbsteinschätzung beim Schreiben. Keine automatische Bewertung von Handschrift, Strichrichtung oder Stiftdruck.
 - Automatisch fällige Wiederholungen mit 1, 3, 7, 14 und 30 Tagen Abstand. Fehlerhafte Formen bleiben sofort fällig.
 - XP, Lerntage, Freischaltungen und lokaler Fortschritt. Eine kurze Sitzung behandelt einen Teil der Einheit; nichts muss in einer bestimmten Tagesdauer abgeschlossen werden.
+- Unterbrochene Einheiten setzen bei der nächsten Aufgabe fort. Die aktuelle Zeichnung bleibt bewusst nur während der geöffneten Aufgabe erhalten.
 - Freie Schreibfläche, drei kleine Lesesätze aus Wortkürzeln, durchsuchbare Sammlung.
 - Seiten 2–10 der amtlichen Verkehrsschrift als Offline-Referenz.
 - Fortschritt über Textsicherung kopieren und mit Bestätigung wiederherstellen.
@@ -30,6 +31,8 @@ Den täglichen Ablauf und die Lernziele findest du in [docs/LERNPLAN.md](docs/LE
 Unter **Fortschritt → Sicherung erstellen** die Sicherung kopieren und außerhalb der App speichern. Android speichert den Lernstand nur im privaten Speicher dieser Installation. Beim Deinstallieren geht dieser Speicher verloren. Die freien Schreibspuren werden nicht dauerhaft gespeichert.
 
 Die Sicherung unterscheidet gelernte Formen von bereits **eingeführten** Formen: Letztere wurden in einer abgeschlossenen Aufgabe bereits bewertet oder falsch beantwortet und dürfen deshalb sofort wiederholt werden, ohne den Lernpfad freizuschalten. Sicherungen des früheren Formats werden beim Laden automatisch in dieses Format überführt; unbekannte oder widersprüchliche Einträge weist die App ab.
+
+Eine pausierte Einheit ist ebenfalls Teil des lokalen Fortschritts und einer erstellten Sicherung. Beim Fortsetzen beginnt die offene Aufgabe erneut; unfertige Schreibspuren werden aus Datenschutz- und Speichergründen nicht gesichert.
 
 Für neue APK-Versionen muss derselbe private Signaturschlüssel benutzt werden, damit Android ein Update akzeptiert. Der mitgelieferte Quellcode enthält keinen privaten Schlüssel. Falls eine frühere Test-APK installiert ist, kann sie nicht auf die erste regulär signierte Release-APK aktualisiert werden: zuerst die Sicherung kopieren, die Test-App einmalig deinstallieren, die Release-APK installieren und die Sicherung wiederherstellen.
 

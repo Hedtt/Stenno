@@ -28,6 +28,11 @@ assert.match(directBuild,/os\.environ\["VERSION_NAME"\]/);
 assert.match(directBuild,/STENOPFAD_KEYSTORE_PASSWORD/);
 assert.match(directBuild,/STENOPFAD_KEY_ALIAS/);
 
+const template=read('web/index.template.html'),assembler=read('scripts/assemble.py');
+assert.match(template,/const APP_VERSION=\/\*VERSION\*\//,'Das Web-UI muss seine Paketversion anzeigen können');
+assert.match(assembler,/VERSION_NAME=/,'Der Assembler muss die zentrale Versionsdatei lesen');
+assert.match(assembler,/replace\('\/\*VERSION\*\//,'Der Assembler muss die Version in die App einsetzen');
+
 const style=read('web/style.css');
 assert.ok(style.length>8000,'Der vollständige Basisstil darf nicht überschrieben werden');
 assert.match(style,/\.write-wrap\{position:relative[^}]*height:280px[^}]*touch-action:none/,'Die Zeichenfläche braucht ihr mobiles Canvas-Layout');
