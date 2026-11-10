@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+local.properties
+build/
+app/build/
+dist/
+node_modules/
+*.keystore
+*.jks
+*.idsig
+Stenopfad.html
+app/src/main/assets/index.html

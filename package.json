@@ -1,0 +1,8 @@
+{
+  "name": "stenopfad",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline-Grundlagenkurs für DEK-Verkehrsschrift mit Android-App",
+  "scripts": {"test": "node tests/flow.cjs", "assemble": "python3 scripts/assemble.py"},
+  "devDependencies": {"jsdom": "26.1.0"}
+}
