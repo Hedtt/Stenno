@@ -12,7 +12,17 @@ Stenopfad ist ein Offline-Grundlagenkurs zur **Verkehrsschrift** der Deutschen E
 
 Die Urkunde trennt Verkehrsschrift von der Schnellschrift mit Eil- und Redeschrift. Der aktuelle Kurs bleibt ausdrücklich in der Verkehrsschrift. Inhalte aus späteren Stufen werden erst nach Prüfung gegen die amtliche Fassung ergänzt.
 
-## 2. Überblick und Geschichte
+## 2. Klare Schriftansichten aus SVG
+
+| Quelle | Rolle in Stenopfad |
+| --- | --- |
+| [Wikimedia Commons: SVG Deutsche Einheitskurzschrift](https://commons.wikimedia.org/wiki/Category:SVG_Deutsche_Einheitskurzschrift) | Ergänzende, gemeinfreie Einzelvorlagen für die Bildschirmansicht. Stenopfad übernimmt nur Dateien, deren einzelnes Zeichen eindeutig zur Karte passt und deren Dateiseite Public Domain ausweist. |
+
+Die App enthält daraus lokale PNG-Vorschauen, die von den jeweiligen SVGs gerendert wurden. Das erhält die Offline-Nutzung und erlaubt eine kontrastreiche Darstellung auf kleinen Displays. Die genaue Zuordnung jeder eingebetteten Ansicht steht in [`web/svg_sources.json`](../web/svg_sources.json). Nicht eindeutig zuordenbare Sammeltafeln werden **nicht** automatisch ausgeschnitten oder einer Karte zugeordnet; dort bleibt der amtliche Originalausschnitt sichtbar.
+
+Die SVG-Ansichten sind eine Darstellungsverbesserung, keine zweite Regelquelle: Bei Regelzweifeln, Bildunterschieden oder späteren Korrekturen hat weiterhin die Wiener Urkunde Vorrang.
+
+## 3. Überblick und Geschichte
 
 | Quelle | Zweck |
 | --- | --- |
@@ -24,7 +34,7 @@ Die Urkunde trennt Verkehrsschrift von der Schnellschrift mit Eil- und Redeschri
 | [Forschungsstätte Bayreuth: Systemtheorie](https://forschungsstaette.de/Stenografie/systemtheorie.htm) | Erläutert die Systemtheorie und die Bedeutung der Wiener Urkunde. |
 | [Forschungsstätte Bayreuth: Veröffentlichungen](https://forschungsstaette.de/lehrmaterial%20veroeffentlichungen.htm) | Nachweis von Kommentaren und Registern zur Urkunde und Beispielsammlung. |
 
-## 3. Gegenwärtige Lernpraxis und Fachnetzwerk
+## 4. Gegenwärtige Lernpraxis und Fachnetzwerk
 
 Diese Seiten dienen zur Orientierung, zu Kursangeboten und für einen möglichen späteren fachlichen Review. Sie werden nicht zur Ableitung einzelner Stenoformen verwendet.
 
@@ -35,7 +45,7 @@ Diese Seiten dienen zur Orientierung, zu Kursangeboten und für einen möglichen
 | [Arbeitsgemeinschaft deutscher Stenographie-Systeme: Kurse](https://adsteno.de/seminare-kurse) | Aktuelle Kurse zur Basisverkehrsschrift. Diese moderne Vereinfachung ist nicht mit der vollständigen Verkehrsschrift gleichzusetzen. |
 | [Bundesjugend für Computer, Kurzschrift und Medien: Textarchiv](https://www.bjckm.de/index.php/bundesjugendschreiben/textarchiv/) | Hinweis auf aktuelle Wettbewerbs- und Übungspraxis; Texte werden nicht in die App übernommen. |
 
-## 4. Technische Vergleichshilfe
+## 5. Technische Vergleichshilfe
 
 | Quelle | Zweck |
 | --- | --- |

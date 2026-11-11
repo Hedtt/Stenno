@@ -1,0 +1,529 @@
+{
+  "source": "Wikimedia Commons · SVG Deutsche Einheitskurzschrift",
+  "category": "https://commons.wikimedia.org/wiki/Category:SVG_Deutsche_Einheitskurzschrift",
+  "licenseNote": "Every imported SVG must state public domain on its own Commons file page. The app stores only a local PNG preview rendered from that SVG.",
+  "assets": [
+    {
+      "id": "b",
+      "label": "b",
+      "matchedLabel": "b",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_b.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_b.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_b.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "br",
+      "label": "br",
+      "matchedLabel": "br",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_br.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_br.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_br.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "c",
+      "label": "c",
+      "matchedLabel": "c",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_c.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_c.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_c.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "ch",
+      "label": "ch",
+      "matchedLabel": "ch",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ch.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ch.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ch.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "cht",
+      "label": "cht",
+      "matchedLabel": "cht",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_cht.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_cht.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_cht.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "cr",
+      "label": "cr",
+      "matchedLabel": "cr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_cr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_cr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_cr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "d",
+      "label": "d",
+      "matchedLabel": "d",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_d.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_d.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_d.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "dr",
+      "label": "dr",
+      "matchedLabel": "dr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_dr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_dr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_dr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "f",
+      "label": "f",
+      "matchedLabel": "f",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_f.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_f.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_f.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "fr",
+      "label": "fr",
+      "matchedLabel": "fr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_fr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_fr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_fr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "g",
+      "label": "g",
+      "matchedLabel": "g",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_g.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_g.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_g.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "gr",
+      "label": "gr",
+      "matchedLabel": "gr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_gr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_gr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_gr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "h",
+      "label": "h",
+      "matchedLabel": "h",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_h.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_h.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_h.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "j",
+      "label": "j",
+      "matchedLabel": "j",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_j.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_j.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_j.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "k",
+      "label": "k",
+      "matchedLabel": "k",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_k.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_k.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_k.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "kr",
+      "label": "kr",
+      "matchedLabel": "kr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_kr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_kr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_kr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "l",
+      "label": "l",
+      "matchedLabel": "l",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_l.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_l.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_l.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "m",
+      "label": "m",
+      "matchedLabel": "m",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_m.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_m.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_m.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "mp",
+      "label": "mp",
+      "matchedLabel": "mp",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_mp.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_mp.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_mp.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "mpf",
+      "label": "mpf",
+      "matchedLabel": "mpf",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_mpf.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_mpf.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_mpf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "n",
+      "label": "n",
+      "matchedLabel": "n",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_n.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_n.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_n.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "nd",
+      "label": "nd",
+      "matchedLabel": "nd",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_nd.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_nd.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_nd.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "ndr",
+      "label": "ndr",
+      "matchedLabel": "ndr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ndr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ndr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ndr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "ng",
+      "label": "ng",
+      "matchedLabel": "ng",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ng.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ng.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ng.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "p",
+      "label": "p",
+      "matchedLabel": "p",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_p.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_p.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_p.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "pf",
+      "label": "pf",
+      "matchedLabel": "pf",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pf.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pf.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "pfr",
+      "label": "pfr",
+      "matchedLabel": "pfr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pfr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pfr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pfr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "pr",
+      "label": "pr",
+      "matchedLabel": "pr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_pr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "qu",
+      "label": "qu",
+      "matchedLabel": "qu",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_qu.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_qu.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_qu.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "r",
+      "label": "r",
+      "matchedLabel": "r",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_r.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_r.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_r.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "rd",
+      "label": "rd",
+      "matchedLabel": "rd",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rd.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rd.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rd.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "rdr",
+      "label": "rdr",
+      "matchedLabel": "rdr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rdr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rdr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rdr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "rr",
+      "label": "rr",
+      "matchedLabel": "rr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "rs",
+      "label": "rs",
+      "matchedLabel": "rs",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rs.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rs.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_rs.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "s",
+      "label": "s",
+      "matchedLabel": "s",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_s.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_s.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_s.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "sch",
+      "label": "sch",
+      "matchedLabel": "sch",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_sch.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_sch.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_sch.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "schm",
+      "label": "schm",
+      "matchedLabel": "schm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schm.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schm.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schm.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "schn",
+      "label": "schn",
+      "matchedLabel": "schn",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schn.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schn.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schn.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "schr",
+      "label": "schr",
+      "matchedLabel": "schr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "schw",
+      "label": "schw",
+      "matchedLabel": "schw",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schw.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schw.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_schw.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "sp",
+      "label": "sp",
+      "matchedLabel": "sp",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_sp.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_sp.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_sp.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "spr",
+      "label": "spr",
+      "matchedLabel": "spr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_spr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_spr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_spr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "st",
+      "label": "st",
+      "matchedLabel": "st",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_st.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_st.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_st.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "str",
+      "label": "str",
+      "matchedLabel": "str",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_str.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_str.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_str.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "t",
+      "label": "t (beide Formen)",
+      "matchedLabel": "t",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_t.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_t.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_t.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "tr",
+      "label": "tr",
+      "matchedLabel": "tr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_tr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_tr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_tr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "v",
+      "label": "v",
+      "matchedLabel": "v",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_v.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_v.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_v.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "w",
+      "label": "w",
+      "matchedLabel": "w",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_w.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_w.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_w.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "wr",
+      "label": "wr",
+      "matchedLabel": "wr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_wr.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_wr.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_wr.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "x",
+      "label": "x",
+      "matchedLabel": "x",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_x.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_x.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_x.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "y",
+      "label": "y",
+      "matchedLabel": "y",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_y.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_y.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_y.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "v-ö",
+      "label": "ö",
+      "matchedLabel": "ö",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ö.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_%C3%B6.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_%C3%B6.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "v-ü",
+      "label": "ü",
+      "matchedLabel": "ü",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ü.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_%C3%BC.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_%C3%BC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "v-ä",
+      "label": "ä",
+      "matchedLabel": "ä",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_ä.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_%C3%A4.svg/1920px-K_DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_%C3%A4.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "v-eu",
+      "label": "eu",
+      "matchedLabel": "eu",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_eu.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_eu.svg/1920px-DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_eu.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "k-also",
+      "label": "also",
+      "matchedLabel": "also",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_also.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_also.svg/1920px-DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_also.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "k-auf",
+      "label": "auf",
+      "matchedLabel": "auf",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_auf.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_auf.svg/1920px-DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_auf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    },
+    {
+      "id": "k-bis",
+      "label": "bis",
+      "matchedLabel": "bis",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_bis.svg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_bis.svg/1920px-DEK_Deutsche_Einheitskurzschrift_-_Verkehrsschrift_-_bis.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Wikimedia Commons: public domain stated on file page",
+      "role": "locally embedded clean preview rendered from an SVG; official scan remains the rule reference"
+    }
+  ]
+}

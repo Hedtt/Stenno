@@ -21,7 +21,7 @@ Die Tagesdauer verändert die Zahl der Formen. Fehlgeschlagene Leseaufgaben verh
 
 - Canvas mit normalisierten Schreibpunkten erhält Striche bei Größenänderungen.
 - Zwei Strichbreiten, Rückgängig und Leeren; keine fingierte Stiftdruckerkennung.
-- Originalausschnitte statt rekonstruierter, möglicherweise falscher Stenozeichen.
+- Originalausschnitte statt rekonstruierter, möglicherweise falscher Stenozeichen. Wo eine einzelne gemeinfreie SVG-Datei eindeutig passt, ergänzt eine lokal eingebettete, kontraststarke Vorschau die mobile Darstellung; der Originalausschnitt bleibt in der Entdecken-Ansicht überprüfbar und für alle übrigen Karten der Fallback.
 - Quellenhierarchie: Amtliche Wiener Urkunde als einzig maßgebliche Regel- und Vorlagenquelle; weitere amtliche Fassungen dienen dem Abgleich. Archive, Fachinstitutionen, Wikipedia, Vereine und technische Werkzeuge liefern ausschließlich Kontext, Didaktik oder Vergleichsmöglichkeiten.
 - Lokaler Speicher, versionierte validierte Textsicherung und bewusste Bestätigung beim Ersetzen. Das Zustandsfeld `introduced` trennt bereits bewertete bzw. falsch beantwortete Formen von tatsächlich gelernten Formen; damit bleiben Fehler sofort wiederholbar, ohne neue Formen über eine Sicherung freizuschalten. Ältere Sicherungen werden beim Laden auf dieses Schema migriert.
 - Kein Netzwerkrecht, keine unkontrollierte Navigation, JavaScript-Brücke ausschließlich für Kopieren und App-Schließen.

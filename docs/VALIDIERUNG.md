@@ -1,4 +1,4 @@
-# Validierung der Version 0.6.0
+# Validierung der Version 0.7.0
 
 ## Erfolgreich geprüft
 
@@ -14,6 +14,8 @@
 - Unterbrochene Einheiten werden validiert gespeichert und setzen an der nächsten Aufgabe fort. Unvollständige Zeichenstriche bleiben bewusst flüchtig; Abschluss-XP wird weiterhin nur einmal vergeben.
 - Einzelübungen aus der Sammlung bleiben vom Kursfortschritt getrennt; auch ein aus Version 0.4 pausierter Einzelübungsstand lässt sich wiederherstellen.
 - Der Offline-Quellenkatalog enthält 15 klassifizierte Fundstellen. Externe Adressen lassen sich kopieren, ohne Netzwerkzugriffe aus der App auszulösen.
+- 58 eindeutig zuordenbare Einzelzeichen besitzen zusätzlich eine lokal eingebettete, kontraststarke PNG-Vorschau aus gemeinfreien Wikimedia-Commons-SVGs. Jede Zuordnung ist in `web/svg_sources.json` mit ihrer Dateiseite dokumentiert; alle 105 amtlichen Originalausschnitte bleiben erhalten.
+- Die Lernansicht zeigt bei SVG-Ansichten die amtliche Scanvorlage in einem aufklappbaren Vergleichsbereich. Sammeltafeln oder nicht eindeutig passende SVGs werden nicht als Einzelzeichen verwendet.
 - Suche, Referenzansicht und Kalendertagsrechnung an beiden Zeitumstellungen 2026.
 - Nativer Java-Code mit Eclipse JDT 3.38.0 gegen Android API 35 kompiliert.
 - APK mit AAPT2 und D8 gebaut, ZIP-Ausrichtung geprüft, v2/v3-Signatur erfolgreich verifiziert.

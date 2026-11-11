@@ -112,6 +112,8 @@ Original: https://media.frag-den-staat.de/files/docs/06/28/25/06282512a3b140d99e
 
 Die App verwendet Ausschnitte der amtlichen Zeichenbilder und Scans dieser Seiten. Keine Bilder aus einem kommerziellen Lehrbuch, keine KI-erfundenen Schriftzeichen. Zeilen und Rasterrauschen des Originalscans bleiben erhalten. Die Ausschnitte wurden visuell mit der Vorlage abgeglichen; eine fachliche Prüfung des gesamten Lernkonzepts durch eine DEK-Lehrkraft steht aus.
 
+Für eindeutig zuordenbare Einzelzeichen ergänzt die App eine kontrastreiche, lokal gespeicherte Vorschau aus einer gemeinfreien [Wikimedia-Commons-SVG-Sammlung](https://commons.wikimedia.org/wiki/Category:SVG_Deutsche_Einheitskurzschrift). Sie ist eine Bildschirmansicht, keine zweite Regelquelle: In der Lernansicht bleibt der amtliche Scan einblendbar und alle anderen Karten verwenden weiterhin den Originalausschnitt. Herkunft und Dateiseiten der derzeit 58 SVG-Ansichten sind in [`web/svg_sources.json`](web/svg_sources.json) dokumentiert.
+
 `web/content.json` enthält alle Vorlagen offline. `scripts/extract-content.py PFAD_ZUR_ORIGINAL_PDF` reproduziert sie mit PyMuPDF; die Koordinaten beziehen sich auf die hier dokumentierte Originaldatei. Die Android-App selbst lädt nichts herunter.
 
 ## Prüfung
