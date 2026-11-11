@@ -24,7 +24,7 @@ Android 8.0 oder neuer und eine aktuelle Version von Android System WebView werd
 
 Das ist ein **Grundlagenkurs**, kein vollständiger Lehrgang bis zur sicheren DEK-Wortschrift. Die sinnbildliche Vokaldarstellung, Wortverbindungen, Sonderfälle und längere Diktate benötigen noch geführte Übungen. Das Nachschlagewerk allein ersetzt diese Übungen nicht. Die Selbstlautkarten zeigen ausdrücklich die buchstäblichen Formen, die bei fehlendem nachfolgendem Mitlaut verwendet werden. Sie sind kein alphabetischer Wortkonverter.
 
-Den täglichen Ablauf und die Lernziele findest du in [docs/LERNPLAN.md](docs/LERNPLAN.md). Der Umsetzungsplan und weitere Schritte stehen in [docs/PLAN.md](docs/PLAN.md).
+Den täglichen Ablauf und die Lernziele findest du in [docs/LERNPLAN.md](docs/LERNPLAN.md). Der Umsetzungsplan und weitere Schritte stehen in [docs/PLAN.md](docs/PLAN.md). Die Quellenhierarchie und alle externen Fundstellen dokumentiert [docs/QUELLEN.md](docs/QUELLEN.md).
 
 ## Fortschritt behalten
 
